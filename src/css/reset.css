@@ -1,0 +1,10 @@
+
+*{
+    margin: 0;  /*serve para nao ter nenhuma margem no meu projeto*/
+    padding: 0; /*serve para nao ter nenhuma margem entre os elementos no meu projeto*/
+    box-sizing: border-box; /*Ele nos ajuda para eu poder trabalhar melhor com os espaçamentos*/
+}
+
+ul{
+    list-style: none; /*para tirar o estilo das listas padroes*/
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Simpsons-devs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Simpsons-Devs</h1>
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Homer</h2>
+                <img class="imagem-personagem" src="src/imagens/Homer.png" alt="Homer" />
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"><strong>Homer Simpson</strong>, famoso por sua sagacidade peculiar e amor por donuts, se aventurou
+                        no mundo do desenvolvimento de software. Como desenvolvedor, Homer traz seu estilo único e
+                        improvisado para o escritório.Homer adota uma abordagem descontraída e espontânea. Ele
+                        frequentemente procrastina, mas encontra soluções criativas no último minuto. Seu método de
+                        debugging envolve comentar partes aleatórias do código e ver o que acontece.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <h2 class="nome">Margee</h2>
+                <img class="imagem-personagem" src="src/imagens/Marge.png" alt="Margee" />
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"><strong>Margee Simpson</strong> é uma desenvolvedora dedicada, carinhosa e sempre prática. Margee é aquela colega que organiza o caos com sua abordagem meticulosa, garantindo que todo o código esteja bem estruturado e documentado. Sua paciência infinita, desenvolvida ao lidar com Homer e as crianças, a torna excelente na resolução de bugs persistentes. Marge também trás um forte senso de ética e justiça ao ambiente de trabalho, promovendo a colaboração e a harmonia na equipe. Mesmo com a pressão dos prazos, ela mantem sua calma característica, encontrando tempo para apoiar seus colegas e balancear sua vida profissional com o cuidado à sua família.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Bart</h2>
+                <img class="imagem-personagem" src="src/imagens/Bart.png" alt="Bart" />
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"><strong>Bart Simpson</strong> é um desenvolvedor criativo, irreverente e um pouco rebelde. Encontra soluções inovadoras e rápidas, mas às vezes negligencia os detalhes. Bart mantem o ambiente de trabalho divertido e leve, sempre pronto para uma piada ou uma pegadinha.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <h2 class="nome">Lisa</h2>
+                <img class="imagem-personagem" src="src/imagens/Lisa.png" alt="Lisa" />
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"><strong>Lisa Simpson</strong> é uma desenvolvedora extremamente inteligente, dedicada e organizada. Lisa tem paixão por aprender e seu perfeccionismo ao código, garante que os codigos sejam impecáveis e bem documentados. Ela é uma líder natural na equipe, sempre buscando soluções inovadoras e sustentáveis. Lisa também promove um ambiente de trabalho inclusivo e ético, incentivando seus colegas a darem o melhor de si.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <h2 class="nome">Maggie</h2>
+                <img class="imagem-personagem" src="src/imagens/Maggie.png" alt="Maggie" />
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"><strong>Maggie Simpson</strong> é uma desenvolvedora, ela é habilidosa, observadora e eficiente. Mesmo sendo a mais nova, surpreende com sua capacidade de resolver problemas e contribuir com ideias inovadoras para a equipe.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-6">
+                <h2 class="nome">Moe Szyslak</h2>
+                <img class="imagem-personagem" src="src/imagens/Moe.png" alt="Moe" />
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"><strong>Moe Szyslak</strong> é um desenvolvedor bruto, direto e com um senso de humor ácido. Moe traz uma abordagem prática e sem rodeios para a programação, focando em soluções eficientes e funcionais. Apesar de sua aparência intimidadora, ele é um colega leal e confiável, sempre disposto a ajudar quando necessário. No entanto, Moe também pode ser um pouco cético em relação a novas tecnologias, preferindo ficar com o que conhece e confia.</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
